@@ -1,0 +1,143 @@
+//10:52 11-02-2025
+
+
+
+import numpy as np
+a=10
+print(a,type(a))
+ndo=np.array(a)
+print(ndo,type(ndo))
+print("Dimension:",ndo.ndim)
+print("Data type:",ndo.dtype)
+print("Shape of ndarray:",ndo.shape)
+print("Size of ndarray:",ndo.size)
+
+
+
+import numpy as np
+b=10.2
+print(b,type(b))
+ndo=np.array(b)
+print(ndo,type(ndo))
+print("Dimension:",ndo.ndim)
+print("Data type:",ndo.dtype)
+print("Shape of ndarray:",ndo.shape)
+print("Size of ndarray:",ndo.size)
+
+
+
+import numpy as np
+c=True
+print(c,type(c))
+ndo=np.array(c)
+print(ndo,type(ndo))
+print("Dimension:",ndo.ndim)
+print("Data type:",ndo.dtype)
+print("Shape of ndarray:",ndo.shape)
+print("Size of ndarray:",ndo.size)
+
+
+
+import numpy as np
+d=10+2j
+print(d,type(d))
+ndo=np.array(d)
+print(ndo,type(ndo))
+print("Dimension:",ndo.ndim)
+print("Data type:",ndo.dtype)
+print("Shape of ndarray:",ndo.shape)
+print("Size of ndarray:",ndo.size)
+
+
+
+import numpy as np
+e='python'
+print(e,type(e))
+ndo=np.array(e)
+print(ndo,type(ndo))
+print("Dimension:",ndo.ndim)
+print("Data type:",ndo.dtype)
+print("Shape of ndarray:",ndo.shape)
+print("Size of ndarray:",ndo.size)
+
+
+
+import numpy as np
+f=range(10)
+print(f,type(f))
+ndo=np.array(f)
+print(ndo,type(ndo))
+print("Dimension:",ndo.ndim)
+print("Data type:",ndo.dtype)
+print("Shape of ndarray:",ndo.shape)
+print("Size of ndarray:",ndo.size)
+
+
+
+
+import numpy as np
+g=[10,20.5,"Von Rossum",True,2+3j]
+print(g,type(g))
+ndo=np.array(g)
+print(ndo,type(ndo))
+print("Dimension:",ndo.ndim)
+print("Data type:",ndo.dtype)
+print("Shape of ndarray:",ndo.shape)
+print("Size of ndarray:",ndo.size)
+
+
+
+h=[[10,20,30],[40,50,60],[70,80,90]]
+print(h)
+ndo=np.array(h)
+print(ndo)
+
+
+
+
+lst1=[1,2,3]
+lst2=[4,5,6]
+lst3=lst1+lst2
+print(lst3)
+nd1=np.array(lst1)
+nd2=np.array(lst2)
+print(nd1+nd2)
+print(nd1*nd2)
+print(np.add(lst1,lst2))
+print(np.multiply(lst1,lst2))
+
+
+
+
+i=[1,2,3,4,5,6,7,8,9]
+print(i)
+ndo=np.array(i)
+print(ndo)
+print("Dimension:",ndo.ndim)
+print("Data type:",ndo.dtype)
+print("Shape:",ndo.shape)
+print("Size:",ndo.size)
+ndo=ndo.reshape(3,3)
+print(ndo)
+print("Dimension:",ndo.ndim)
+print("Data type:",ndo.dtype)
+print("Shape:",ndo.shape)
+print("Size:",ndo.size)
+
+
+
+
+j=range(0,4)
+print(j)
+ndo=np.array(j)
+print(ndo)
+print("Dimension:",ndo.ndim)
+print("Data type:",ndo.dtype)
+print("Shape:",ndo.shape)
+print("Size:",ndo.size)
+ndo=ndo.reshape(2,2)
+print(ndo)
+print("Dimension:",ndo.ndim)
+print("Data type:",ndo.dtype)
+print("Shape:",ndo.shape)
+print("Size:",ndo.size)
